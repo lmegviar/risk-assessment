@@ -14,7 +14,8 @@ class Dashboard extends React.Component {
 		return (
 			<div className="dash-main">
 				<Header />
-				<img src={map} width='100%'/>
+				<br></br>
+				<img src={map} width='40%'/>
 				<RiskKey />
 				<AssessmentSelector /> 
 			</div>

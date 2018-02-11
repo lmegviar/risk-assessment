@@ -32,7 +32,6 @@ export default class AssessmentSelector extends React.Component {
 		return (
 			<form>
 				<p> Assessment Type(s): </p>
-				<p> Selected: {this.state.corruption} {this.state.freedom} </p>
 				<label>
 					<input name="corruption" type="checkbox" checked={this.state.corruption} onChange={this.handleChange} />
 					Corruption
